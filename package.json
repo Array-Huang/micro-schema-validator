@@ -1,7 +1,7 @@
 {
   "name": "micro-schema-validator",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.1.0",
+  "description": "Damn simple javascript object schema validator",
   "main": "lib/Library.js",
   "files": [
     "src/",
@@ -27,7 +27,7 @@
     "url": "git+https://github.com/Array-Huang/micro-schema-validator.git"
   },
   "keywords": [],
-  "author": "George Raptis <georapbox@gmail.com>",
+  "author": "Array Huang <hyw125@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Array-Huang/micro-schema-validator/issues"
@@ -53,5 +53,8 @@
     "webpack-cli": "~3.3.9",
     "yargs": "~14.1.0"
   },
-  "browserslist": "> 0.5%, last 2 versions, Firefox ESR, not dead"
+  "browserslist": "> 0.5%, last 2 versions, Firefox ESR, not dead",
+  "dependencies": {
+    "babel-eslint": "^10.0.3"
+  }
 }

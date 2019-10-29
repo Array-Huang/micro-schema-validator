@@ -13,10 +13,10 @@ let library;
 describe('Library', () => {
   beforeEach(() => library = new Library());
 
-  it('should get the library\'s name', () => {
-    const spy = sinon.spy(library, 'name');
-    const name = library.name();
-    expect(name).to.eql('Library');
+  it("should get the library's name", () => {
+    const spy = sinon.spy(library, '_getName');
+    const name = library._getName();
+    expect(name).to.eql('micro-schema-validator');
     spy.restore();
     expect(spy).to.have.been.called;
   });

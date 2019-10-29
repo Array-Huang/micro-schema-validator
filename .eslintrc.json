@@ -6,7 +6,7 @@
     "mocha": true
   },
   "parserOptions": {
-    "ecmaVersion": 7,
+    "ecmaVersion": 9,
     "sourceType": "module",
     "ecmaFeatures": {
       "impliedStrict": true
@@ -18,7 +18,7 @@
     // disallow assignment operators in conditional expressions
     "no-cond-assign": 2,
     // disallow the use of console
-    "no-console": 1,
+    "no-console": 0,
     // disallow constant expressions in conditions
     "no-constant-condition": 2,
     // disallow the use of debugger
