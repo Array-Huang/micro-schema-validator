@@ -1,8 +1,8 @@
 {
   "name": "micro-schema-validator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Damn simple javascript object schema validator",
-  "main": "lib/Library.js",
+  "main": "lib/micro-schema-validator.js",
   "files": [
     "src/",
     "dist/",
