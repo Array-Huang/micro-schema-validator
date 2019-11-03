@@ -1,11 +1,14 @@
 <h1 align="center">Welcome to micro-schema-validator 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://www.npmjs.com/package/micro-schema-validator" target="_blank">
+    <img src="https://img.shields.io/npm/v/micro-schema-validator.svg?cacheSeconds=2592000" />
+  </a>
+  <a href="https://www.npmjs.com/package/micro-schema-validator" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/npm/dw/micro-schema-validator.svg?cacheSeconds=2592000" />
+  </a>
+  <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/min/micro-schema-validator.svg?cacheSeconds=2592000" />
   <a href="https://github.com/Array-Huang/micro-schema-validator#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
-  <a href="https://github.com/Array-Huang/micro-schema-validator/graphs/commit-activity" target="_blank">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
   <a href="https://github.com/Array-Huang/micro-schema-validator/blob/master/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/github/license/Array-Huang/micro-schema-validator" />
