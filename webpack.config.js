@@ -5,12 +5,16 @@ const pkg = require('./package.json');
 
 const libraryName = 'micro-schema-validator';
 
-const banner = `${pkg.name}
+const banner = `
+${pkg.name}
 ${pkg.description}\n
 @version v${pkg.version}
-@author ${pkg.author}
 @homepage ${pkg.homepage}
-@repository ${pkg.repository.url}`;
+@repository ${pkg.repository.url}\n
+(c) 2019 Array-Huang
+Released under the MIT License.
+hash: [hash]
+`;
 
 const plugins = [new webpack.BannerPlugin(banner)];
 
@@ -20,7 +24,7 @@ module.exports = {
   output: {
     path: `${__dirname}/${libraryTarget === 'umd' ? 'dist' : 'lib'}`,
     filename: mode === 'development' ? `${libraryName}.js` : `${libraryName}.min.js`,
-    library: libraryName,
+    library: 'MicroSchemaValidator',
     libraryTarget: libraryTarget || 'umd',
     globalObject: "(typeof self !== 'undefined' ? self : this)", // TODO Hack (for Webpack 4+) to enable create UMD build which can be required by Node without throwing error for window being undefined (https://github.com/webpack/webpack/issues/6522)
     umdNamedDefine: true
